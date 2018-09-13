@@ -59,32 +59,49 @@ console.log("hello");
 
 // ---------Getting to know you --------- //
 // Use the following arrays to answer the questions below (name, age, hometown):
-const shahzad = ["Shahzad", 1000, "Austin"];
-const jim = ["Jim", 16, "All cities"];
-const reuben = ["Reuben", 22, "Durham"];
-const daniel = ["Daniel", 186, "Dallas"];
-const ryan = ["Ryan", 65, "Denver"];
+// const shahzad = ["Shahzad", 1000, "Austin"];
+// const jim = ["Jim", 16, "All cities"];
+// const reuben = ["Reuben", 22, "Durham"];
+// const daniel = ["Daniel", 186, "Dallas"];
+// const ryan = ["Ryan", 65, "Denver"];
 
-// Daniel decides that Shahzad can't be named "Shahzad" anymore. Remove "Shahzad" from the shahzad array and replace it with "Gameboy".
-shahzad.splice(0, 1, 'Gameboy');
-console.log(shahzad);
+// // Daniel decides that Shahzad can't be named "Shahzad" anymore. Remove "Shahzad" from the shahzad array and replace it with "Gameboy".
+// shahzad.splice(0, 1, 'Gameboy');
+// console.log(shahzad);
 
-//Daniel just had his birthday; change Daniel's array to reflect him being a year older. Don't just hard code 187--pretend that you don't know that his age is 186, and write your code to just make him a year older than whatever age he was.
-daniel.splice(1,1, 19);
-console.log(daniel);
+// //Daniel just had his birthday; change Daniel's array to reflect him being a year older. Don't just hard code 187--pretend that you don't know that his age is 186, and write your code to just make him a year older than whatever age he was.
+// daniel.splice(1,1, 19);
+// console.log(daniel);
 
-//Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
-ryan.splice(0, 1, 'Batman');
-ryan.splice(2, 1, 'Gotham City');
-console.log(ryan);
+// //Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
+// ryan.splice(0, 1, 'Batman');
+// ryan.splice(2, 1, 'Gotham City');
+// console.log(ryan);
 
-//Reuben left Durham 5 years ago to come to Chicago. Remove "Durham" from Reuben's array and add "Chicago". (Note: remove and then add is different from simply changing the value at that index.)
-reuben.splice(2, 1, 'Chicago');
-console.log(reuben);
+// //Reuben left Durham 5 years ago to come to Chicago. Remove "Durham" from Reuben's array and add "Chicago". (Note: remove and then add is different from simply changing the value at that index.)
+// reuben.splice(2, 1, 'Chicago');
+// console.log(reuben);
 
-//Bonus: Whoops! Jim is actually only allowed to be in one of two cities. Whatever the first of the 3 cities for Jim is now, remove it from the array using .splice()
-jim.splice(2, 1);
-console.log(jim);
+// //Bonus: Whoops! Jim is actually only allowed to be in one of two cities. Whatever the first of the 3 cities for Jim is now, remove it from the array using .splice()
+// jim.splice(2, 1);
+// console.log(jim);
+
+//--------------Yell at the Ninja Turtles ----------------- //
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+	//Use a for loop to call .toUpperCase() on each of them and print out the result.
+for (let i = 0; i <= ninjaTurtles.length; i++) {
+	if (typeof ninjaTurtles[i] === 'string') {
+		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+		else if (typeof ninjaTurtles[i] === 'string') {
+		ninjaTurtles[i] = ninjaTurtles[i].toLowerCase();
+
+	}
+	}
+console.log(ninjaTurtles);
+
+
 
 
 
