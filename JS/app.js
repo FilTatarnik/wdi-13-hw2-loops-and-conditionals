@@ -177,3 +177,23 @@ console.log(krystOut2);
 const krystOut3 ="Kristyn's gonna wear a " + kristynsCloset[1] + "," + kristynsCloset[5] + ", and " + kristynsCloset[0]; 
 console.log(krystOut3);
 
+
+//Dirty laundry
+//Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
+//created loop to loop through array
+for (i = 1; i < kristynsCloset.length; i++){
+	//logged the sentence and logged krystins closet but not a number, but i, the thing that's being looped, so it'll console log the first one, repeat, and i will 1, repeat then i will be 2.
+	console.log("WHIRR: Now washing " + kristynsCloset[i] + ".")
+}
+
+//Inventory
+//Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
+
+//made a for loop that'll go through the array
+for(i = 0; i < thomsCloset.length; i++) {
+	//console log'd thom's array but it still lists the elements. Idk I can't figure it out
+	console.log(thomsCloset[i]);
+}
+
+
+
