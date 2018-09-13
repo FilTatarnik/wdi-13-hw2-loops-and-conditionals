@@ -106,20 +106,20 @@ console.log(jim);
 
 //--------------Yell at the Ninja Turtles ----------------- //
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-// const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
 // 	//Use a for loop to call .toUpperCase() on each of them and print out the result.
-// for (let i = 0; i <= ninjaTurtles.length; i++) {
-// 	if (typeof ninjaTurtles[i] === 'string') {
-// 		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-// 		else if(typeof ninjaTurtles[i] === 'string') {
-// 		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+for (let i = 0; i <= ninjaTurtles.length; i++) {
+	if (typeof ninjaTurtles[i] === 'string') {
+		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+		// else if(typeof ninjaTurtles[i] === 'string') {
+		// ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
 // 		// ^^ my sad attempt at the bonus. I literally just don't get it.
 
 
-// 	}
-// 	}
-// console.log(ninjaTurtles);
+	}
+	}
+console.log(ninjaTurtles);
 
 //^^ Idk why but I couldn't get it to work with my other code running. the error is unexpected token else, but i need an else if statement there. 
 
