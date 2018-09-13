@@ -32,12 +32,12 @@ console.log("hello");
 //^^go back to this, you aren't finished!
 
 
-//Write a javascript application that logs all numbers from 1 - 100.
-// If a number is divisible by 3 log "Fizz" instead of the number.
-// If a number is divisible by 5 log "Buzz" instead of the number.
-// If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+Write a javascript application that logs all numbers from 1 - 100.
+If a number is divisible by 3 log "Fizz" instead of the number.
+If a number is divisible by 5 log "Buzz" instead of the number.
+If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
 
-//setting up loop
+setting up loop
 
 for (let i = 1; i < 100; i++) {
 	//if i is divisible by 3 and 5, console log "fizzbuzz" instead of the number
@@ -52,3 +52,14 @@ for (let i = 1; i < 100; i++) {
 	//console logging 0-100
 	else console.log(i);	
 }
+
+//Getting to know you
+//Use the following arrays to answer the questions below (name, age, hometown):
+// const shahzad = ["Shahzad", 1000, "Austin"];
+// const jim = ["Jim", 16, "All cities"];
+// const reuben = ["Reuben", 22, "Durham"];
+// const daniel = ["Daniel", 186, "Dallas"];
+// const ryan = ["Ryan", 65, "Denver"];
+
+//Daniel decides that Shahzad can't be named "Shahzad" anymore. Remove "Shahzad" from the shahzad array and replace it with "Gameboy".
+
