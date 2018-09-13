@@ -92,17 +92,17 @@ daniel.splice(1,1, 19);
 console.log(daniel);
 
 // //Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
-// ryan.splice(0, 1, 'Batman');
-// ryan.splice(2, 1, 'Gotham City');
-// console.log(ryan);
+ryan.splice(0, 1, 'Batman');
+ryan.splice(2, 1, 'Gotham City');
+console.log(ryan);
 
 // //Reuben left Durham 5 years ago to come to Chicago. Remove "Durham" from Reuben's array and add "Chicago". (Note: remove and then add is different from simply changing the value at that index.)
-// reuben.splice(2, 1, 'Chicago');
-// console.log(reuben);
+reuben.splice(2, 1, 'Chicago');
+console.log(reuben);
 
 // //Bonus: Whoops! Jim is actually only allowed to be in one of two cities. Whatever the first of the 3 cities for Jim is now, remove it from the array using .splice()
-// jim.splice(2, 1);
-// console.log(jim);
+jim.splice(2, 1);
+console.log(jim);
 
 //--------------Yell at the Ninja Turtles ----------------- //
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
@@ -112,14 +112,16 @@ console.log(daniel);
 // for (let i = 0; i <= ninjaTurtles.length; i++) {
 // 	if (typeof ninjaTurtles[i] === 'string') {
 // 		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-// 		// else if(typeof ninjaTurtles[i] === 'string') {
-// 		// ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-// 		//^^ my sad attempt at the bonus. I literally just don't get it.
+// 		else if(typeof ninjaTurtles[i] === 'string') {
+// 		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+// 		// ^^ my sad attempt at the bonus. I literally just don't get it.
 
 
 // 	}
 // 	}
 // console.log(ninjaTurtles);
+
+//^^ Idk why but I couldn't get it to work with my other code running. the error is unexpected token else, but i need an else if statement there. 
 
 //----------------Return of the Closets------------------//
 
@@ -195,5 +197,18 @@ for(i = 0; i < thomsCloset.length; i++) {
 	console.log(thomsCloset[i]);
 }
 
+//Multiples of 3 and 5
+//Find the sum of all the multiples of 3 or 5 below 1000.
 
-
+//when i do a const sum = 0; it didn't work, but when i don't use const it works. I'm too tired. 
+ sum = 0;
+ //for loop, starts at 1, ends at 1000
+ for(let i = 1; i <= 1000; i++){
+ 	//if i is divisble by 3 or 5
+	if(i % 3 === 0 || i % 5 === 0){
+		//add i to the sum
+		sum += i;
+	}
+}
+//console log sum
+console.log(sum); 
