@@ -20,18 +20,27 @@ console.log("hello");
 
 
 // // loop that logs "Love me, pet me! HSSSSSS!" 20 times
-// const cat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
-// const randomValue = cat[Math.floor(3 * Math.random())];
+const catOne = ["...human...why you taking pictures of me?..."];
+const catTwo = ["...the catnip made me do it..."];
+const catThree = ["...why does the red dot always get away..."];
 
 
-// for (let i = 0; i <= 20; i++){
-// 	if(i % 2 === 0){
-// 		console.log(Math.random(cat));
-// 	} else 
-// 	//logging the statement "Love me, pet me! HSSSSSS!" everytime the loop runs, 20 times.
-// 	console.log("Love me, pet me! HSSSSSS!");
 
-// }
+for (let i = 0; i <= 20; i++){
+			console.log("Love me, pet me! HSSSSSS!");
+
+	if(i % 2 === 0){
+		let randCat = Math.random();
+	  if (randCat <= .33){
+	  	console.log(catOne);
+	} else if (randCat <= .66) {
+		console.log(catTwo);
+	} else {
+		console.log(catThree);
+	}
+	//logging the statement "Love me, pet me! HSSSSSS!" everytime the loop runs, 20 times.
+}
+}
 
 // ^^go back to this, you aren't finished!
 
@@ -88,18 +97,20 @@ console.log("hello");
 
 //--------------Yell at the Ninja Turtles ----------------- //
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-	//Use a for loop to call .toUpperCase() on each of them and print out the result.
-for (let i = 0; i <= ninjaTurtles.length; i++) {
-	if (typeof ninjaTurtles[i] === 'string') {
-		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-		else if (typeof ninjaTurtles[i] === 'string') {
-		ninjaTurtles[i] = ninjaTurtles[i].toLowerCase();
+// 	//Use a for loop to call .toUpperCase() on each of them and print out the result.
+// for (let i = 0; i <= ninjaTurtles.length; i++) {
+// 	if (typeof ninjaTurtles[i] === 'string') {
+// 		ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+// 		// else if(typeof ninjaTurtles[i] === 'string') {
+// 		// ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+// 		//^^ my sad attempt at the bonus. I literally just don't get it.
 
-	}
-	}
-console.log(ninjaTurtles);
+
+// 	}
+// 	}
+// console.log(ninjaTurtles);
 
 
 
